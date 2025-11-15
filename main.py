@@ -47,3 +47,6 @@ plt.ylabel('Précision')
 plt.legend(loc='best')
 plt.grid()
 plt.show()
+
+
+#Modification par etudiant A dans le code main
