@@ -6,6 +6,13 @@ def preprocess_data(data, testSize):
     #  Suppression de la colonne 'Id' si elle existe
     if 'Id' in data.columns:
         data = data.drop(columns=['Id'])
+    
+    
+    
+    print("Prétraitement des données lancé (étudiant B)")
+
+
 
     train, test = train_test_split(data, test_size=testSize)
     return train, test
+
