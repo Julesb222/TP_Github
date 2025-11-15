@@ -6,6 +6,16 @@ from sklearn.model_selection import learning_curve
 from train_model import train_model
 from preprocess_data import preprocess_data
 
+#modif etudiant B
+from sklearn.metrics import confusion_matrix, classification_report
+
+print("Matrice de confusion :")
+print(confusion_matrix(test_y, y_pred))
+
+print("\nRapport de classification :")
+print(classification_report(test_y, y_pred))
+#fin de modif
+
 # Chargement des données
 iris = pd.read_csv("InputData/Iris.csv")
 test_size = 0.3
