@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.model_selection import learning_curve
 from train_model import train_model
 from preprocess_data import preprocess_data
-
+print("Début du programme - version étudiant B")
 #modif etudiant B
 from sklearn.metrics import confusion_matrix, classification_report
 

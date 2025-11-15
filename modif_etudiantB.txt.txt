@@ -1,0 +1,4 @@
+Modifications effectuées par l'étudiant B :
+
+- Ajout de la suppression de la colonne 'Id' dans preprocess_data.py
+- Objectif : Nettoyage des données avant le split train/test
