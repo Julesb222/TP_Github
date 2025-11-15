@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.model_selection import learning_curve
 from train_model import train_model
 from preprocess_data import preprocess_data
-
+print("Début du programme - version étudiant A")
 # Chargement des données
 iris = pd.read_csv("InputData/Iris.csv")
 test_size = 0.3
